@@ -10,3 +10,7 @@ terraform{
 resource "aws_sns_topic" "sns1" {
   name = "test-sns-topic1"
 }
+
+resource "aws_sns_topic" "sns2" {
+  name = "test-sns-topic2"
+}
